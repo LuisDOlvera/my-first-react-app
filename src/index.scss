@@ -1,0 +1,29 @@
+.koder {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.koder_active {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.koderImg {
+  height: 100px;
+  width: 100px;
+}
+
+.kodersList {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
